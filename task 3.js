@@ -44,6 +44,7 @@ function checkWinner() {
         }
     }
 
+    // Check for draw
     if (!boardState.includes(null)) {
         gameActive = false;
         statusText.textContent = 'It\'s a draw!';
