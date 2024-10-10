@@ -60,8 +60,6 @@ function restartGame() {
     });
     statusText.textContent = `Current Player: ${currentPlayer}`;
 }
-
-// Event Listeners
 cells.forEach(cell => {
     cell.addEventListener('click', handleCellClick);
 });
