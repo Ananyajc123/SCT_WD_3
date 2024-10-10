@@ -9,7 +9,7 @@ body {
 
 .game-container {
     text-align: center;
-    background: white;
+    background: #E8B4B8;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ body {
 .cell {
     width: 100px;
     height: 100px;
-    background-color: #ddd;
+    background-color: #EED6D3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,4 +46,5 @@ button {
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
+    background-color: #A49393;
 }
